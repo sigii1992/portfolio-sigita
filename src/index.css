@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+@layer base {
+  body {
+    @apply font-[Pacifico];
+    @apply text-2xl;
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+    @apply hover:text-red-700;
+  }
+}
