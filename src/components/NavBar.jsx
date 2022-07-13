@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Logo from '../assets/sz.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
+import { MdEmail } from 'react-icons/md'
 
 const NavBar = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
@@ -38,13 +39,16 @@ const NavBar = () => {
           </ul>
 
         {/*Social media icons*/}
-        <div className='flex fixed flex-col left-0 top-[35%] text-red-500'>
+        <div className='hidden md:flex fixed flex-col top-[35%] left-0 text-red-500 drop-shadow-lg'>
             <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/sigita-zebrauskaite-0258ab15b/" target='_blank'rel="noreferrer"><BsLinkedin size={40}/></a>
+              <li className='w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300'>
+                <a className='flex justify-between items-center w-full' href="https://www.linkedin.com/in/sigita-zebrauskaite-0258ab15b/" target='_blank'rel="noreferrer">Linkedin<BsLinkedin size={40}/></a>
               </li>
-              <li>
-                <a href="https://github.com/sigii1992" target='_blank' rel="noreferrer"><BsGithub size={40}/></a>
+              <li className='w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300'>
+                <a className='flex justify-between items-center w-full' href="https://github.com/sigii1992" target='_blank' rel="noreferrer">GitHub<BsGithub size={40}/></a>
+              </li>
+              <li className='w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300'>
+                <a className='flex justify-between items-center w-full' href="mailto: sigita.zeb92@gmail.com" target='_blank' rel="noreferrer">Email<MdEmail size={40}/></a>
               </li>
             </ul>
         </div>
