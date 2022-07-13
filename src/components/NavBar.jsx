@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Logo from '../assets/sz.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
 const NavBar = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
@@ -35,6 +36,18 @@ const NavBar = () => {
             <li className='py-6 text-4xl'>Projects</li>
             <li className='py-6 text-4xl'>Contact Me</li>
           </ul>
+
+        {/*Social media icons*/}
+        <div className='flex fixed flex-col left-0 top-[35%] text-red-500'>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/sigita-zebrauskaite-0258ab15b/" target='_blank'rel="noreferrer"><BsLinkedin size={40}/></a>
+              </li>
+              <li>
+                <a href="https://github.com/sigii1992" target='_blank' rel="noreferrer"><BsGithub size={40}/></a>
+              </li>
+            </ul>
+        </div>
     </div>
   )
 }
