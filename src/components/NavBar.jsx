@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Logo from '../assets/sz.png';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
@@ -24,7 +24,7 @@ const NavBar = () => {
 
         {/*hamburger: anything over medium (768px) it will hide*/}
         <div onClick={handleClick} className='md:hidden z-10 hover:text-red-700 cursor-pointer drop-shadow-lg'>
-            <FaBars size={38}/>
+            { hamburgerMenu ? <FaTimes size={38} /> : <FaBars size={38}/> }
         </div>
 
         {/*Mobile menu*/}
