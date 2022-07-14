@@ -30,12 +30,12 @@ const NavBar = () => {
         </div>
 
         {/*Mobile menu*/}
-          <ul className={hamburgerMenu ? 'absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-rose-500 via-red-400 to-red-500 flex flex-col justify-center items-center' : 'hidden'}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About Me</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Projects</li>
-            <li className='py-6 text-4xl'>Contact Me</li>
+          <ul className={hamburgerMenu ? "absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-rose-500 via-red-400 to-red-500 flex flex-col justify-center items-center" : "hidden"}>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>Home</li>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>About Me</li>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>Skills</li>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>Projects</li>
+            <li className='py-6 text-4xl hover:scale-110 duration-300'>Contact Me</li>
           </ul>
 
         {/*Social media icons*/}
