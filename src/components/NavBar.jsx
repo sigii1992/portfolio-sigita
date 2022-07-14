@@ -17,15 +17,15 @@ const NavBar = () => {
 
         {/*menu: anything below medium it will hide*/}
           <ul className='hidden md:flex'>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
+            <li className='hover:scale-110 duration-300'>Home</li>
+            <li className='hover:scale-110 duration-300'>About Me</li>
+            <li className='hover:scale-110 duration-300'>Skills</li>
+            <li className='hover:scale-110 duration-300'>Projects</li>
+            <li className='hover:scale-110 duration-300'>Contact Me</li>
           </ul>
 
         {/*hamburger: anything over medium (768px) it will hide*/}
-        <div onClick={handleClick} className='md:hidden z-10 hover:text-red-700 cursor-pointer drop-shadow-lg'>
+        <div onClick={handleClick} className='md:hidden z-10 hover:text-red-700 cursor-pointer drop-shadow-lg hover:scale-110 duration-300'>
             { hamburgerMenu ? <FaTimes size={38} /> : <FaBars size={38}/> }
         </div>
 
