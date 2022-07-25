@@ -11,7 +11,7 @@ const Home = () => {
           <h2 className="text-[#d18282] text-4xl md:text-6xl font-bold">A passionate Junior Full Stack Developer from Lithuania 🇱🇹 living in the UK 🇬🇧</h2>
           <p className="text-[#BC8F8F] py-6 max-w-[1000px]">I'm an ambitious and dedicated Junior Full Stack Developer, 
           looking for a role where I can share my experience and expand my programming knowledge in a supportive and junior-friendly environment.
-           I have recently completed <a target='_blank' className="underline underline-offset"
+           I have recently completed <a target='_blank' rel="noreferrer" className="underline underline-offset"
           href="https://makers.tech/software-developer-career/?utm_source=google&utm_medium=cpc&utm_campaign=B2C+Hybrid&utm_term=makers%20academy&utm_campaign=B2C+Hybrid&utm_source=adwords&utm_medium=ppc&hsa_acc=7172166340&hsa_cam=13568953605&hsa_grp=123027501759&hsa_ad=528554003929&hsa_src=g&hsa_tgt=aud-451474068443:kwd-315575993965&hsa_kw=makers%20academy&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw_b6WBhAQEiwAp4HyIObdX-1eqlnRcn24t7yhBSUufJgNQAMUJnYKvnXQd_TpBN2vqSe8VBoChacQAvD_BwE">Makers Academy</a>, an immersive 16 week software development bootcamp where I strengthened my previous coding knowledge to the level
            where I can proudly say that I am ready for my first role in tech industry.</p>
           <div>
