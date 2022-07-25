@@ -17,51 +17,51 @@ const Skills = () => {
             </div>  
 
             <div className="w-full py-8 text-center grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={HTML} alt="html"></img>
                   <p className="text-red-500 font-semibold">HTML</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={CSS} alt="css"></img>
                   <p className="text-red-500 font-semibold">CSS</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={Ruby} alt="ruby"></img>
                   <p className="text-red-500 font-semibold">Ruby</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={JS} alt="javascript"></img>
                   <p className="text-red-500 font-semibold">JavaScript</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={ReactJs} alt="react"></img>
                   <p className="text-red-500 font-semibold">ReactJs</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"  alt="material-ui"></img>
                   <p className="text-red-500 font-semibold">Material-ui</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"  alt="bootstrap"></img>
                   <p className="text-red-500 font-semibold">Bootstarp</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={PostgreSql} alt="postgresql"></img>
                   <p className="text-red-500 font-semibold">PostgreSql</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="sqlite"></img>
                   <p className="text-red-500 font-semibold">SQLite</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={Git} alt="git"></img>
                   <p className="text-red-500 font-semibold">Git</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src={Visual_studio_code} alt="visual-studio"></img>
                   <p className="text-red-500 font-semibold">Visual Studio Code</p>
                 </div>
-                <div>
+                <div className='shadow-md hover:scale-110 duration-300'>
                   <img className="w-20 mx-auto pb-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github"></img>
                   <p className="text-red-500 font-semibold">GitHub</p>
                 </div>
