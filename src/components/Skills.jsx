@@ -9,11 +9,11 @@ import Visual_studio_code from '../assets/visual.svg'
 
 const Skills = () => {
   return (
-    <div name='skills' className="w-full h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit] text-[#d18282]">
-        <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full p-12">
-            <div>
+    <div name='skills' className="w-full min-h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit] text-[#d18282]">
+        <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full px-4 sm:px-12 pb-20">
+            <div className=''>
               <p className="text-4xl font-bold inline border-b-4 border-red-700 text-red-500">Skills</p>
-              <p className="py-4">Some of the technologies I have worked with: </p>
+              <p className="py-8">Some of the technologies I have worked with: </p>
             </div>  
 
             <div className="w-full py-8 text-center grid grid-cols-2 md:grid-cols-4 gap-4">
