@@ -2,13 +2,13 @@ import { BsArrowRight } from 'react-icons/bs'
 
 const Home = () => {
   return (
-    <div name='home' className="w-full h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit]">
+    <div name='home' className="w-full min-h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit]">
 
     {/*Container */}
-        <div className="max-w-[1000px] mx-auto px-12 flex flex-col justify-center h-full">
-          <p className="text-red-500">Hi, my name is</p>
-          <h1 className="text-[#BC8F8F] text-4xl md:text-6xl font-bold">Sigita Zebrauskaite</h1>
-          <h2 className="text-[#d18282] text-4xl md:text-6xl font-bold">A passionate Junior Full Stack Developer from Lithuania 🇱🇹 living in the UK 🇬🇧</h2>
+        <div className="max-w-[1000px] mx-auto px-4 sm:px-12 flex flex-col justify-center min-h-screen">
+          <p className="text-red-500 pt-20">Hi, my name is</p>
+          <h1 className="text-[#BC8F8F] text-4xl sm:text-6xl font-bold">Sigita Zebrauskaite</h1>
+          <h2 className="text-[#d18282] text-4xl sm:text-6xl font-bold">A passionate Junior Full Stack Developer from Lithuania 🇱🇹 living in the UK 🇬🇧</h2>
           <p className="text-[#BC8F8F] py-6 max-w-[1000px]">I'm an ambitious and dedicated Junior Full Stack Developer, 
           looking for a role where I can share my experience and expand my programming knowledge in a supportive and junior-friendly environment.
            I have recently completed <a target='_blank' rel="noreferrer" className="underline underline-offset"
@@ -20,7 +20,7 @@ const Home = () => {
               <BsArrowRight className='ml-2'/></span>
               </button>
           </div>
-        </div>
+        </div> 
     </div>
   );
 };

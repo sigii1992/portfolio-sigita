@@ -10,7 +10,7 @@ const NavBar = () => {
   const handleClick = () => setHamburgerMenu(!hamburgerMenu);
 
   return (
-    <div className="bg-gradient-to-r from-rose-500 via-red-400 to-red-500 fixed w-full h-[80px] flex justify-between items-center px-4 text-white shadow-xl">
+    <div className="bg-gradient-to-r from-rose-500 via-red-400 to-red-500 fixed w-full h-[70px] md:h-[80px] flex justify-between items-center px-4 text-white shadow-xl">
         <div>
             <img src={Logo} alt='Logo' style={{width: '110px'}}></img>
         </div>
