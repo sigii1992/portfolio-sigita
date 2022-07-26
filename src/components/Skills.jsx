@@ -11,12 +11,12 @@ const Skills = () => {
   return (
     <div name='skills' className="w-full min-h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit] text-[#d18282]">
         <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full px-4 sm:px-12 pb-20">
-            <div className=''>
+            <div>
               <p className="text-4xl font-bold inline border-b-4 border-red-700 text-red-500">Skills</p>
-              <p className="py-8">Some of the technologies I have worked with: </p>
+              <p className="pt-10 pb-8">Some of the technologies I have worked with: </p>
             </div>  
 
-            <div className="w-full py-8 text-center grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="w-full pb-6 text-center grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/HTML', "_blank")}  className='shadow-md hover:scale-110 duration-300'>
                   <p className="text-red-500 font-semibold pb-2 ">HTML</p>
                   <img className="w-20 mx-auto mb-2" src={HTML} alt="html"></img>
