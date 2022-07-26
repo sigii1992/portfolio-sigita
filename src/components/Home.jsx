@@ -5,8 +5,8 @@ const Home = () => {
     <div name='home' className="w-full min-h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit]">
 
     {/*Container */}
-        <div className="max-w-[1000px] mx-auto px-4 sm:px-12 flex flex-col justify-center min-h-screen">
-          <p className="text-red-500 pt-20">Hi, my name is</p>
+        <div className="max-w-[1000px] mx-auto py-20 px-4 sm:px-12 flex flex-col justify-center min-h-screen">
+          <p className="text-red-500">Hi, my name is</p>
           <h1 className="text-[#BC8F8F] text-4xl sm:text-6xl font-bold">Sigita Zebrauskaite</h1>
           <h2 className="text-[#d18282] text-4xl sm:text-6xl font-bold">A passionate Junior Full Stack Developer from Lithuania 🇱🇹 living in the UK 🇬🇧</h2>
           <p className="text-[#BC8F8F] py-6 max-w-[1000px]">I'm an ambitious and dedicated Junior Full Stack Developer, 

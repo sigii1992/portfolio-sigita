@@ -1,15 +1,15 @@
 
 const About = () => {
   return (
-    <div name='about' className="w-full h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit] text-[#d18282]">
-        <div className="flex flex-col justify-items-center items-center w-full h-full">
+    <div name='about' className="w-full min-h-screen bg-gradient-to-r from-rose-100 to-teal-100 font-[Kanit] text-[#d18282]">
+        <div className="flex flex-col justify-items-center items-center w-full h-full pb-20">
             <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8">
-                <div className="md:text-right pb-8 pl-12">
+                <div className="md:text-right pb-4 md:pb-8 px-4 sm:px-12 md:px-0">
                   <p className="text-4xl font-bold inline border-b-4 border-red-700 text-red-500">About me</p>
                 </div>
                 <div></div>
             </div>
-            <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-12">
+            <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4 sm:px-12">
                 <div className="md:text-right text-4xl font-bold">
                   <p>Hi, I'm Sigita and welcome to my portfolio!</p>
                 </div>
