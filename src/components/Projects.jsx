@@ -11,6 +11,26 @@ const Projects = () => {
             <p className="pt-10">Check out some of my recent projects: </p>
             <p className="text-lg pb-8">(P.S. You can see application screenshots when following the Github link on every project 🖱)</p>
           </div> 
+
+          {/*Grid container */}
+          <div className="grid sm:grid-cols-2 gap-4">
+          {/*Card container */}
+              <div className="shadow-lg shadow-red-700 container card-content-div">
+                  bla bla 
+              </div>
+              <div className="shadow-lg shadow-red-700 container card-content-div">
+                  bla bla 
+              </div>
+              <div className="shadow-lg shadow-red-700 container card-content-div">
+                  bla bla 
+              </div>
+              <div className="shadow-lg shadow-red-700 container card-content-div">
+                  bla bla 
+              </div>
+              <div className="shadow-lg shadow-red-700 container card-content-div">
+                  bla bla 
+              </div>
+          </div>
         </div>
     </div>
   )

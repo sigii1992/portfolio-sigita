@@ -16,8 +16,8 @@ const Home = () => {
            where I can proudly say that I am ready for my first role in tech industry.</p>
           <div>
               <button className='group text-white border-2 bg-red-500 rounded-full px-6 py-2 flex items-center hover:bg-red-700 hover:scale-110 duration-300'>View Work 
-              <span className='group-hover:rotate-90 duration-300'>
-              <BsArrowRight className='ml-2'/></span>
+                <span className='group-hover:rotate-90 duration-300'>
+                <BsArrowRight className='ml-2'/></span>
               </button>
           </div>
         </div> 

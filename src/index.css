@@ -21,3 +21,14 @@
     @apply drop-shadow-lg;
   }
 }
+
+.card-content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
