@@ -32,3 +32,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.card-content-div:hover {
+  background-image:linear-gradient(
+    to right,
+    rgba(233, 8, 23, 0),
+    rgba(250, 117, 117, 0.993)
+  )!important;
+}

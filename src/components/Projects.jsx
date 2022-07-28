@@ -1,4 +1,4 @@
-
+import Lights_out from '../assets/light-out.jpg'
 
 const Projects = () => {
   return (
@@ -14,9 +14,23 @@ const Projects = () => {
 
           {/*Grid container */}
           <div className="grid sm:grid-cols-2 gap-4">
-          {/*Card container */}
-              <div className="shadow-lg shadow-red-700 container card-content-div">
-                  bla bla 
+
+          {/*Grid Item*/}
+              <div style={{backgroundImage: `url(${Lights_out})`}}
+                  className="group shadow-lg shadow-red-700 container mx-auto card-content-div">
+                {/*Hover efect */}
+                <div className='opacity-0 group-hover:opacity-100'>
+                  <span className='font-bold text-4xl text-red-700 tracking-wider'>
+                    Lights-out!
+                  </span>
+                  <div className='pt-6 text-center'>
+                    <a href='https://github.com/sigii1992/lights-out' target='_blank' rel="noreferrer" >
+                      <button className='text-center rounded-full px-4 py-3 m-2 bg-red-500 text-white font-bold border-2  hover:bg-red-700 hover:scale-110 duration-300'>
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="shadow-lg shadow-red-700 container card-content-div">
                   bla bla 
