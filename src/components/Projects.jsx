@@ -2,7 +2,7 @@ import Lights_out from '../assets/light-out.jpg'
 import Chitter from '../assets/chitter.webp'
 import Acebook from '../assets/ace.jpg'
 import Bank_tech_test from '../assets/coding.png'
-import Meme from '../assets/meme.jpg'
+import Meme from '../assets/meme.png'
 
 const Projects = () => {
   return (
