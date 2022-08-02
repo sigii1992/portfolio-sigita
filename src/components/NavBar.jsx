@@ -67,12 +67,35 @@ const NavBar = () => {
             : "hidden"
         }
       >
-        <li className="py-6 text-4xl hover:scale-110 duration-300">Home</li>
-        <li className="py-6 text-4xl hover:scale-110 duration-300">About Me</li>
-        <li className="py-6 text-4xl hover:scale-110 duration-300">Skills</li>
-        <li className="py-6 text-4xl hover:scale-110 duration-300">Projects</li>
         <li className="py-6 text-4xl hover:scale-110 duration-300">
-          Contact Me
+          <Link to="home" smooth={true} duration={500} onClick={handleClick}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
+          <Link to="about" smooth={true} duration={500} onClick={handleClick}>
+            About Me
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
+          <Link to="skills" smooth={true} duration={500} onClick={handleClick}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            onClick={handleClick}
+          >
+            Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
+          <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
+            Contact Me
+          </Link>
         </li>
       </ul>
 
