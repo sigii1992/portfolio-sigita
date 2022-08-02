@@ -11,7 +11,7 @@ const NavBar = () => {
   const handleClick = () => setHamburgerMenu(!hamburgerMenu);
 
   return (
-    <div className="bg-gradient-to-r from-rose-500 via-red-400 to-red-500 fixed w-full h-[70px] md:h-[80px] flex justify-between items-center px-4 text-white shadow-xl">
+    <div className="bg-[#114141] fixed w-full h-[70px] md:h-[80px] flex justify-between items-center px-4 text-white shadow-xl">
       <div>
         <Link to="home" smooth={true} duration={500}>
           <img
@@ -30,7 +30,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="hover:scale-110 duration-300">
-          <Link to="about" smooth={true} duration={500} offset={-200}>
+          <Link to="about" smooth={true} duration={500} offset={-100}>
             About Me
           </Link>
         </li>
@@ -54,7 +54,7 @@ const NavBar = () => {
       {/*hamburger: anything over medium (768px) it will hide*/}
       <div
         onClick={handleClick}
-        className="md:hidden z-10 hover:text-red-700 cursor-pointer drop-shadow-lg hover:scale-110 duration-300"
+        className="md:hidden z-10 hover:text-[#68a89a] cursor-pointer drop-shadow-lg hover:scale-110 duration-300"
       >
         {hamburgerMenu ? <FaTimes size={38} /> : <FaBars size={38} />}
       </div>
@@ -63,7 +63,7 @@ const NavBar = () => {
       <ul
         className={
           hamburgerMenu
-            ? "absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-rose-500 via-red-400 to-red-500 flex flex-col justify-center items-center"
+            ? "absolute top-0 left-0 w-full h-screen bg-[#114141] flex flex-col justify-center items-center"
             : "hidden"
         }
       >
@@ -100,7 +100,7 @@ const NavBar = () => {
       </ul>
 
       {/*Social media icons*/}
-      <div className="hidden md:flex fixed flex-col top-[35%] left-0 text-red-500 drop-shadow-lg">
+      <div className="hidden md:flex fixed flex-col top-[35%] left-0 text-gray-200 drop-shadow-lg">
         <ul>
           <li className="w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300">
             <a

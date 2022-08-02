@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @layer base {
   body {
@@ -17,7 +17,7 @@
   li {
     @apply px-4;
     @apply cursor-pointer;
-    @apply hover:text-red-700;
+    @apply hover:text-[#68a89a];
     @apply drop-shadow-lg;
   }
 }
@@ -34,9 +34,9 @@
 }
 
 .card-content-div:hover {
-  background-image:linear-gradient(
+  background-image: linear-gradient(
     to right,
     rgba(233, 8, 23, 0),
     rgba(250, 117, 117, 0.993)
-  )!important;
+  ) !important;
 }
