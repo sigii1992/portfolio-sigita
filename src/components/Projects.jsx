@@ -41,7 +41,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
+                  <button className="hover:text-gray-200 text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
                     Code
                   </button>
                 </a>
@@ -64,7 +64,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
+                  <button className="hover:text-gray-200 text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
                     Code
                   </button>
                 </a>
@@ -87,7 +87,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
+                  <button className="hover:text-gray-200 text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
                     Code
                   </button>
                 </a>
@@ -110,7 +110,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
+                  <button className="hover:text-gray-200 text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
                     Code
                   </button>
                 </a>
@@ -133,7 +133,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
+                  <button className="hover:text-gray-200 text-center rounded-full px-4 py-3 m-2 bg-gray-200 text-[#0f4946] font-bold hover:bg-[#68a89a] hover:scale-110 duration-300">
                     Code
                   </button>
                 </a>

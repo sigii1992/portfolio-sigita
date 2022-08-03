@@ -37,7 +37,7 @@ const Contact = () => {
           placeholder="Enter your message..."
           className="shadow-xl p-2 shadow-[#1D7874] rounded-lg placeholder-[#114141] text-[#114141] outline-none"
         ></textarea>
-        <button className="mx-auto my-8 text-[#0f4946] bg-gray-200 rounded-full px-6 py-2 flex items-center justify-center hover:bg-[#68a89a] hover:scale-110 duration-300">
+        <button className="mx-auto my-8 text-[#0f4946] bg-gray-200 rounded-full px-6 py-2 flex items-center justify-center hover:bg-[#68a89a] hover:text-gray-200 hover:scale-110 duration-300">
           Let's talk!
           <MdEmail className="ml-2" />{" "}
         </button>

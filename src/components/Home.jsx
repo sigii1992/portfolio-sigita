@@ -36,7 +36,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500} offset={-80}>
-            <button className="group text-[#114141] bg-gray-200 rounded-full px-6 py-2 flex items-center hover:bg-[#68a89a] hover:scale-110 duration-300">
+            <button className="group text-[#114141] bg-gray-200 rounded-full px-6 py-2 flex items-center hover:bg-[#68a89a] hover:text-gray-200 hover:scale-110 duration-300">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <BsArrowRight className="ml-2" />
