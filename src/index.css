@@ -36,7 +36,7 @@
 .card-content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(233, 8, 23, 0),
-    rgba(250, 117, 117, 0.993)
+    rgba(2, 53, 53, 0),
+    rgba(50, 87, 73, 0.993)
   ) !important;
 }
