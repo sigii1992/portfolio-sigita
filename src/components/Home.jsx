@@ -3,7 +3,10 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full min-h-screen bg-[#071E22] font-[Kanit]">
+    <div
+      name="home"
+      className="w-full min-h-screen bg-[#071E22] font-[Kanit] bg-cl"
+    >
       {/*Container */}
       <div className="max-w-[1000px] mx-auto py-20 px-4 sm:px-12 flex flex-col justify-center min-h-screen">
         <p className="text-gray-100">Hi, my name is</p>
@@ -33,7 +36,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500} offset={-80}>
-            <button className="group text-[#071E22] bg-gray-200 rounded-full px-6 py-2 flex items-center hover:bg-[#68a89a] hover:scale-110 duration-300">
+            <button className="group text-[#114141] bg-gray-200 rounded-full px-6 py-2 flex items-center hover:bg-[#68a89a] hover:scale-110 duration-300">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <BsArrowRight className="ml-2" />
