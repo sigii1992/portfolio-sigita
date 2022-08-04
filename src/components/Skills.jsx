@@ -155,7 +155,7 @@ const Skills = () => {
           <p className="py-4">
             To know more about my technical and soft skills please visit my{" "}
             <a
-              className="underline underline-offset"
+              className="underline underline-offset font-semibold "
               href="https://github.com/sigii1992"
               target="_blank"
               rel="noreferrer"
