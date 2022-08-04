@@ -64,7 +64,7 @@ const Contact = () => {
         ></textarea>
         <button className="mx-auto my-8 text-[#0f4946] bg-gray-200 rounded-full px-6 py-2 flex items-center justify-center hover:bg-[#68a89a] hover:text-gray-200 hover:scale-110 duration-300">
           Let's talk!
-          <MdEmail className="ml-2" />{" "}
+          <MdEmail className="ml-2" />
         </button>
       </form>
     </div>

@@ -6,7 +6,6 @@ import ReactJs from "../assets/react.svg";
 import Ruby from "../assets/ruby.svg";
 import Git from "../assets/git.svg";
 import Visual_studio_code from "../assets/visual.svg";
-import Github from "../assets/github.svg";
 
 const Skills = () => {
   return (
