@@ -20,18 +20,21 @@ const Contact = () => {
           </p>
         </div>
         <input
+          required
           type="text"
           placeholder="Enter your name"
           name="name"
-          className="shadow-xl p-2 shadow-[#1D7874] rounded-lg placeholder-[#114141] text-[#114141] outline-none"
+          className="peer shadow-xl p-2 shadow-[#1D7874] rounded-lg placeholder-[#114141] text-[#114141] outline-none"
         />
         <input
+          required
           type="email"
           placeholder="Enter your email address"
           name="email"
           className="my-4 shadow-xl p-2 shadow-[#1D7874] rounded-lg placeholder-[#114141] text-[#114141] outline-none"
         />
         <textarea
+          required
           rows="10"
           name="message"
           placeholder="Enter your message..."
