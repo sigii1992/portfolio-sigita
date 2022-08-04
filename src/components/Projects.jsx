@@ -19,7 +19,7 @@ const Projects = () => {
           <p className="pt-10">Check out some of my recent projects: </p>
           <p className="text-lg pb-8">
             (P.S. You can look at application screenshots when clicking the
-            "Code" button on every project 🖱)
+            "Code" button on every project and scrolling down the page 🖱)
           </p>
         </div>
 

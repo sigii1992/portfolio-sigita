@@ -1,6 +1,22 @@
 import { MdEmail } from "react-icons/md";
+import { useState } from "react";
 
 const Contact = () => {
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setValues({
+      ...values,
+      [name]: value,
+    });
+  };
+
   return (
     <div
       name="contact"
@@ -16,10 +32,12 @@ const Contact = () => {
             Contact me
           </p>
           <p className="pt-10">
-            Submit the form below or send me an email - sigita.zeb92@gmail.com
+            Submit the form below and I will get back to you 🖊
           </p>
         </div>
         <input
+          value={values.name}
+          onChange={handleChange}
           required
           type="text"
           placeholder="Enter your name"
@@ -27,6 +45,8 @@ const Contact = () => {
           className="peer shadow-xl p-2 shadow-[#1D7874] rounded-lg placeholder-[#114141] text-[#114141] outline-none"
         />
         <input
+          value={values.email}
+          onChange={handleChange}
           required
           type="email"
           placeholder="Enter your email address"
@@ -34,6 +54,8 @@ const Contact = () => {
           className="my-4 shadow-xl p-2 shadow-[#1D7874] rounded-lg placeholder-[#114141] text-[#114141] outline-none"
         />
         <textarea
+          value={values.message}
+          onChange={handleChange}
           required
           rows="10"
           name="message"
