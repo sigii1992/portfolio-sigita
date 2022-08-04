@@ -1,3 +1,5 @@
+import My_Photo from "../assets/me.jpg";
+
 const About = () => {
   return (
     <div
@@ -16,6 +18,11 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4 sm:px-12">
           <div className="md:text-right text-4xl font-bold">
             <p>Hi, I'm Sigita and welcome to my portfolio!</p>
+            <img
+              src={My_Photo}
+              alt="me"
+              className="mt-4 rounded-full max-w-full h-auto shadow-xl shadow-[#1D7874]"
+            />
           </div>
           <div>
             <p className="text-[#B6CDC7]">
