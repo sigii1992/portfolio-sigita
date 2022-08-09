@@ -24,27 +24,27 @@ const NavBar = () => {
 
       {/*menu: anything below medium it will hide*/}
       <ul className="hidden md:flex">
-        <li className="hover:scale-110 duration-300">
+        <li className="hover:scale-110">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="hover:scale-110 duration-300">
+        <li className="hover:scale-110">
           <Link to="about" smooth={true} duration={500} offset={-100}>
             About Me
           </Link>
         </li>
-        <li className="hover:scale-110 duration-300">
+        <li className="hover:scale-110">
           <Link to="skills" smooth={true} duration={500} offset={-200}>
             Skills
           </Link>
         </li>
-        <li className="hover:scale-110 duration-300">
+        <li className="hover:scale-110">
           <Link to="projects" smooth={true} duration={500} offset={-80}>
             Projects
           </Link>
         </li>
-        <li className="hover:scale-110 duration-300">
+        <li className="hover:scale-110">
           <Link to="contact" smooth={true} duration={500} offset={-70}>
             Contact Me
           </Link>
@@ -67,22 +67,22 @@ const NavBar = () => {
             : "hidden"
         }
       >
-        <li className="py-6 text-4xl hover:scale-110 duration-300">
+        <li className="py-6 text-4xl hover:scale-110">
           <Link to="home" smooth={true} duration={500} onClick={handleClick}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:scale-110 duration-300">
+        <li className="py-6 text-4xl hover:scale-110">
           <Link to="about" smooth={true} duration={500} onClick={handleClick}>
             About Me
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:scale-110 duration-300">
+        <li className="py-6 text-4xl hover:scale-110">
           <Link to="skills" smooth={true} duration={500} onClick={handleClick}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:scale-110 duration-300">
+        <li className="py-6 text-4xl hover:scale-110">
           <Link
             to="projects"
             smooth={true}
@@ -92,7 +92,7 @@ const NavBar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:scale-110 duration-300">
+        <li className="py-6 text-4xl hover:scale-110">
           <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
             Contact Me
           </Link>
@@ -102,7 +102,7 @@ const NavBar = () => {
       {/*Social media icons*/}
       <div className="hidden md:flex fixed flex-col top-[35%] left-0 text-gray-200 drop-shadow-lg">
         <ul>
-          <li className="w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300">
+          <li className="w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px]">
             <a
               className="flex justify-between items-center w-full"
               href="https://www.linkedin.com/in/sigita-zebrauskaite-0258ab15b/"
@@ -113,7 +113,7 @@ const NavBar = () => {
               <BsLinkedin size={40} />
             </a>
           </li>
-          <li className="w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300">
+          <li className="w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px]">
             <a
               className="flex justify-between items-center w-full"
               href="https://github.com/sigii1992"
@@ -124,7 +124,7 @@ const NavBar = () => {
               <BsGithub size={40} />
             </a>
           </li>
-          <li className="w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300">
+          <li className="w-[195px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px]">
             <a
               className="flex justify-between items-center w-full"
               href="mailto: sigita.zeb92@gmail.com"

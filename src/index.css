@@ -19,6 +19,7 @@
     @apply cursor-pointer;
     @apply hover:text-[#68a89a];
     @apply drop-shadow-lg;
+    @apply duration-300;
   }
 }
 
